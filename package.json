@@ -1,11 +1,19 @@
 {
   "dependencies": {
-    "@hapi/hapi": "^21.3.10"
+    "@hapi/hapi": "^21.3.10",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.3",
+    "bcrypt": "^5.1.1",
+    "hapi-auth-jwt2": "^10.6.0",
+    "hapi-swagger": "^17.3.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.4"
   },
   "name": "match_pesca_back",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Projeto de pesca",
+  "main": "server.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
