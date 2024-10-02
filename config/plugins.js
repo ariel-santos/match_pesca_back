@@ -12,7 +12,7 @@ module.exports = [
     {
         plugin: MongoosePlugin,
         options: {
-            mongoDbUri: 'mongodb://localhost:27017/match_pesca'
+            mongoDbUri: process.env.MONGO_DB_URI
         }
     },
     Inert,

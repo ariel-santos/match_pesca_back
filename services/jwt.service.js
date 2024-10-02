@@ -25,6 +25,6 @@ module.exports = {
         return { isValid: true };
     },
     verifyOptions() {
-        return { algorithms: ['HS256'] };
+        return { algorithms: [process.env.JWT_ALGORITHMS] };
     }
 };
